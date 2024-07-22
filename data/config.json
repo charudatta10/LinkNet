@@ -1,9 +1,9 @@
 {
     "name": "Charudatta Korde",
     "handle": "charudatta10",
-    "profilePicture": "assets/profile-picture.png",
+    "profilePicture": "..\\docs\\assets\\images\\profile-picture.png",
     "description": "I create weird stuff!",
-    "backgroundImage": "assets/background.png",
+    "backgroundImage": "..\\docs\\assets\\images\\background.png",
     "linkIconFormat": "svg",
     "links": {
         "GitHub": "https://github.com/charudatta10",
