@@ -18,8 +18,8 @@
         <div id="profile">
             <div id="profile-picture"><img src="{{'static/images/profile-picture.png'}}"
                     alt="Profile Picture of charudatta10"></div>
-            <div id="name">{{name}}<img src="{{'static/images/svgs/verified.svg'}}"
-                    alt="The verified icon" title="Verified"></div>
+            <div id="name">{{name}}<img src="{{'static/images/svgs/verified.svg'}}" alt="The verified icon"
+                    title="Verified"></div>
             <div id="handle">@{{handle}}</div>
             <div id="description">{{description}}</div>
         </div>
@@ -27,40 +27,19 @@
             {% for key, value in links.items() %}
             <div class="link-container" style="--order: {{ loop.index }};"><a href="{{ value }}" target="_blank">
                     <div class="link-content">
-                        <div class="link-icon"><img src="{{'static/images/svgs/'}}{{ key }}.svg"
-                                alt="Icon of GitHub"></div>
+                        <div class="link-icon"><img src="{{'static/images/svgs/'}}{{ key }}.svg" alt="Icon of GitHub">
+                        </div>
                         <div class="link-name">
                             <p>{{ key }}</p>
                         </div>
                     </div>
                 </a></div>
-                {% endfor %}
-
-
-
-           <!-- <div class="link-container" style="--order: 2;"><a href="https://www.linkedin.com/in/charudatta-korde/"
-                    target="_blank">
-                    <div class="link-content"> http://localhost:8080/docs/assets/images/profile-picture.png
-                        <div class="link-icon"><img src="./charudatta10&#39;s Link Orchard!_files/Linkedin.svg"
-                                alt="Icon of Linkedin"></div>
-                        <div class="link-name"> http://localhost:8000/output/docs/assets/images/profile-picture.png
-                            <p>Linkedin</p> docs\assets\images\background.png
-                        </div> http://localhost:8080/docs/assets/images/profile-picture.png
-                    </div>http://localhost:8080/assets/profile-picture.png
-                </a></div> -->
- 
- 
-
-
-
-
+            {% endfor %}
         </div>
         <div class="copyright">
             <p id="copyright-info">© {{name}} 2024</p>
         </div>
     </main>
-
-
 </body><editor-card style="position:absolute;top:0px;left:0px;z-index:auto;display: block !important">
     <div dir="ltr" style="all: initial;">
         <div
