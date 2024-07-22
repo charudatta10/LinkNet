@@ -4,7 +4,7 @@ from jinja2 import Template
 from pathlib import Path
 import json
 
-app = Flask(__name__, template_folder= Path(__file__).parent.parent / "output")
+app = Flask(__name__, template_folder= Path(__file__).parent / "site")
 
 
 @app.route("/")
@@ -15,10 +15,8 @@ def index():
 class LinkNetGen():
 
     def __init__(self) -> None:
-        t0 = Path('docs/assets/template') 
-        t1 = Path('data')
-        self.template_path = Path(__file__).parent.parent / t0
-        self.config_path =  Path(__file__).parent.parent / t1
+        self.template_path = Path(__file__).parent.parent / 'template'
+        self.config_path =  Path(__file__).parent
         
     def add_template(self):
         with open(self.template_path / 'index.html', mode='r',encoding="utf-8") as template_file:
@@ -34,8 +32,7 @@ class LinkNetGen():
         self.doc = self.template.render(**self.data)
 
     def gen_file(self):
-        t3 = Path(__file__).parent.parent / "output"
-        with open(t3 / "index.html", "w+", encoding="utf-8") as f:
+        with open(Path(__file__).parent / "site/index.html", "w+", encoding="utf-8") as f:
             f.write(self.doc)
 
     def main(self):
