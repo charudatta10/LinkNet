@@ -9,16 +9,16 @@
     <style data-merge-styles="true"></style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="web-title">charudatta10's Link Net</title>
-    <link rel="shortcut icon" href="..\docs\assets\images\svgs\favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="..\docs\assets\css\style.css">
+    <link rel="shortcut icon" href="{{'static/images/svgs/favicon.svg'}}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ 'static/styles/style.css'}}">
 </head>
 
-<body id="master" class="" style="background-image: '..\docs\assets\images\background.png'';">
+<body id="master" class="" style="background-image: url({{'static/images/background.png'}});">
     <main id="main-content">
         <div id="profile">
-            <div id="profile-picture"><img src="{{profilePicture}}"
+            <div id="profile-picture"><img src="{{'static/images/profile-picture.png'}}"
                     alt="Profile Picture of charudatta10"></div>
-            <div id="name">{{name}}<img src="..\docs\assets\images\svgs\verified.svg"
+            <div id="name">{{name}}<img src="{{'static/images/svgs/verified.svg'}}"
                     alt="The verified icon" title="Verified"></div>
             <div id="handle">@{{handle}}</div>
             <div id="description">{{description}}</div>
@@ -27,7 +27,7 @@
             {% for key, value in links.items() %}
             <div class="link-container" style="--order: {{ loop.index }};"><a href="{{ value }}" target="_blank">
                     <div class="link-content">
-                        <div class="link-icon"><img src="..\docs\assets\images\svgs\{{ key }}.svg"
+                        <div class="link-icon"><img src="{{'static/images/svgs/'}}{{ key }}.svg"
                                 alt="Icon of GitHub"></div>
                         <div class="link-name">
                             <p>{{ key }}</p>

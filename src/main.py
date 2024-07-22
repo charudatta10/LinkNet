@@ -4,7 +4,7 @@ from jinja2 import Template
 from pathlib import Path
 import json
 
-app = Flask(__name__, static_url_path='', static_folder=Path(__file__).parent / 'docs/assets', template_folder= Path(__file__).parent.parent / "output")
+app = Flask(__name__, template_folder= Path(__file__).parent.parent / "output")
 
 
 @app.route("/")
@@ -57,5 +57,6 @@ class LinkNetGen():
 if  __name__ == "__main__":
     c = LinkNetGen()
     c.main()
-    serve(app, host='0.0.0.0', port=8080)
+    #serve(app, host='0.0.0.0', port=8080)
+    app.run(debug =True)
 
