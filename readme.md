@@ -1,6 +1,6 @@
  
 <!-- PROJECT Banner -->
-![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=LinkNet&width=1020&height=460)
+![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=LinkNet&width=1020&height=115)
 <!-- PROJECT TITLE - PROJECT LOGO -->
 # LinkNet ![Logo]()
 
