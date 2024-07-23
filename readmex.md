@@ -8,56 +8,99 @@ headingDivider:
   - 4
   - 6
 theme: gaia
----from jinja2 import Template
-from config_file_gen import ConfigGen
+--- 
+<!-- PROJECT Banner -->
+![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=LinkNet&width=1020&height=460)
+<!-- PROJECT TITLE - PROJECT LOGO -->
+# LinkNet ![Logo]()
+
+<!-- PROJECT SHIELDS -->
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/LinkNet?include_prereleases)
+![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/LinkNet)
+![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/LinkNet)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/LinkNet)
+![GitHub](https://img.shields.io/github/license/charudatta10/LinkNet)
+
+<!-- Project Description -->
+Links aggregated repository  
+
+<!-- SHARING ON SOCIAL MEDIA -->
+
+<!-- TABLE OF CONTENTS -->
+
+## Project Preview 📖 <!-- Usage screenshots -->
+
+![Project Preview]()
+
+## Features 🌟
+
+- Supporting Any Link + Custom Link Icon
+- Easy & Quick Set Up
+- Responsive Layout
+- Sleek Animation
+- Professional Design
+- Verified Checkmark
+ 
+
+## Built With 🔧
+![](https://img.shields.io/badge/Python-B53E5C?style=for-the-badge&logo=Python&logoColor=000) ![](https://img.shields.io/badge/Html-16C8FD?style=for-the-badge&logo=HTML&logoColor=fff) ![](https://img.shields.io/badge/Css-32F60C?style=for-the-badge&logo=CSS&logoColor=fff) 
+
+<!-- Documentation  -->
+
+## Getting Started 🌱
+
+### Dependencies ⧉
+
+- Flask
+- Waitress
 
 
-class ReadmeGen:
+### Installation ■■■■■■■■■■
 
-    def __init__(self) -> None:
-        self.template_path = __file__
-        
-    def add_template(self):
-        with open(self.template_path, mode='r',encoding="utf-8") as template_file:
-            template_content = template_file.read()
-        # Create a Jinja2 template
-        self.template = Template(template_content)   
-        
-    def add_config(self):
-        config = ConfigGen()
-        config.get_data()
-        self.data = config.get_config()
+1. To install from binaries:  
+   Download the binary file from the release and double-click to use it.
 
-    def gen_str(self):
-        self.doc = self.template.render(**self.data)
+2. To install from source:
 
-    def gen_file(self):
-        with open("readme.md", "w+", encoding="utf-8") as f:
-            f.write(self.doc)
+```PowerShell
+gh repo clone charudatta10/LinkNet
+```
+ 
+## Documentation 🗎
 
-    def main(self):
-        self.add_template()
-        self.add_config()
-        self.gen_str()
-        self.gen_file()
-        self.ppt_gen()
+- python src\main.py
 
-    def ppt_gen(self):
-        file_content = """---
-marp: true
-size: 16:9
-headingDivider:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 6
-theme: gaia
----""" + self.doc
 
-        with open("readmex.md", 'w+',encoding="utf-8") as f:
-            f.write(file_content)
+![Screenshot]()
 
-if __name__ == "__main__":
-    readme = ReadmeGen()  
-    readme.main()
+## FAQ ?
+
+✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/LinkNet/issues)✨
+
+
+
+<!-- Community Guidelines [Author, Contributors, contributors guidelines, users, license ] -->
+
+## Authors 👱
+
+The author of this project is charudatta10.  
+
+## Contributors 👪
+
+| ![](profile-picture.png) |
+| :---: | 
+| charudatta10 |
+| [💻](#code-charudatta10)  [📖](#doc-charudatta10)  [🎨](#design-charudatta10)  [💡](#example-charudatta10)  [🤔](#ideas-charudatta10)|
+
+
+### Contribution guidelines
+
+The contribution to this project should adhere to GPLv3.0 and respect the copyright claims of charudatta10.
+
+## License 📜
+
+Copyright :copyright: 2024 ![logo](favicon05.svg):tm: @ charudatta10.   
+The project is licensed [GPLv3.0](./LICENSE).
+
+<!--- Contact form and portfolio links sponsorship links-->
+[Contact Me](https://charudatta10.github.io/linktree/)
