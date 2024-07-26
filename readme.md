@@ -1,6 +1,6 @@
  
 <!-- PROJECT Banner -->
-![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=LinkNet&width=1020&height=460)
+![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=LinkNet&width=1020&height=115)
 <!-- PROJECT TITLE - PROJECT LOGO -->
 # LinkNet ![Logo]()
 
@@ -77,7 +77,7 @@ The author of this project is charudatta10.
 
 ## Contributors 👪
 
-| ![](profile-picture.png) |
+| ![profile-picture.png](https://avatars.githubusercontent.com/u/10682378?s=400&u=29a709a9b0dc8fc53c34b23d3ce1557289b0bdaa&v=4) |
 | :---: | 
 | charudatta10 |
 | [💻](#code-charudatta10)  [📖](#doc-charudatta10)  [🎨](#design-charudatta10)  [💡](#example-charudatta10)  [🤔](#ideas-charudatta10)|
@@ -85,12 +85,12 @@ The author of this project is charudatta10.
 
 ### Contribution guidelines
 
-The contribution to this project should adhere to GPLv3.0 and respect the copyright claims of charudatta10.
+The contribution to this project should adhere to GPL-3.0 and respect the copyright claims of charudatta10.
 
 ## License 📜
 
-Copyright :copyright: 2024 ![logo](favicon05.svg):tm: @ charudatta10.   
-The project is licensed [GPLv3.0](./LICENSE).
+Copyright :copyright: 2024 ![logo](https://raw.githubusercontent.com/charudatta10/myblog/main/assets/logo.ico):tm: @ charudatta10.   
+The project is licensed [GPL-3.0](./LICENSE).
 
 <!--- Contact form and portfolio links sponsorship links-->
 [Contact Me](https://charudatta10.github.io/linktree/)
