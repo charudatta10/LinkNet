@@ -1,0 +1,26 @@
+{
+    "name": "Charudatta Korde",
+    "handle": "charudatta10",
+    "profilePicture": "assets/profile-picture.png",
+    "description": "I create weird stuff!",
+    "backgroundImage": "assets/background.png",
+    "linkIconFormat": "svg",
+    "links": {
+        "GitHub": "https://github.com/charudatta10",
+        "Linkedin": "https://www.linkedin.com/in/charudatta-korde/",
+        "Medium": "https://medium.com/@152109007c",
+        "X": "https://twitter.com/kordecharudatta",
+        "Reddit": "https://www.reddit.com/user/ryunabi/",
+        "Pinterest": "https://in.pinterest.com/charudattakorde/",
+        "Instagram": "https://www.instagram.com/ryunabi326/",
+        "Mastodon": "https://mastodon.social/@ryunabi326",
+        "Dev-to": "https://dev.to/charudatta10",
+        "Matrix": "https://matrix.to/#/#discuss10:matrix.org",
+        "Facebook": "https://www.facebook.com/korde.charudatta/",
+        "Gitlab": "https://gitlab.com/152109007c",
+        "Stackoverflow": "https://stackoverflow.com/users/24364782/charudatta-korde",
+        "Quora": "https://www.quora.com/profile/Charudatta-Korde",
+        "Twitch": "https://www.twitch.tv/ryunabi326",
+        "Gitea": "http://localhost:3000/user"
+    }
+}
