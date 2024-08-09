@@ -59,11 +59,13 @@ exe file_name:
 
 compile:
     #!pwsh
-    echo "compile"
+    conda activate w
+    
 
 run:
     #!pwsh
-    echo "run"
+    conda activate w
+    python src/main.py
 
 
 
