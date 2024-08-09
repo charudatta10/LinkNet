@@ -57,7 +57,13 @@ exe file_name:
 
 #########-ADD-Custom-Tasks-Here-##################
 
+compile:
+    #!pwsh
+    echo "compile"
 
+run:
+    #!pwsh
+    echo "run"
 
 
 
