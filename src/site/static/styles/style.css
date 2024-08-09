@@ -3,8 +3,8 @@
 :root {
     --bg-color: #011734;
     --general-font-color: #fff;
-    --link-container-color: aliceblue;
-    --link-font-color: #000;
+    --link-container-color: rgba(3, 0, 15, 0.712);
+    --link-font-color: #f6f8f9;
 }
 
 @keyframes basic-fade {
