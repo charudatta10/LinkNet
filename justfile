@@ -60,7 +60,8 @@ exe file_name:
 compile:
     #!pwsh
     conda activate w
-    
+    python src/main.py
+    Copy-Item  -Path src/static -Destination src/site/ -Recurse -force
 
 run:
     #!pwsh
