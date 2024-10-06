@@ -39,7 +39,7 @@ class TestLinkNetGen(unittest.TestCase):
     def test_gen_file(self, mock_file):
         self.link_net_gen.doc = "Generated content"
         self.link_net_gen.gen_file()
-        mock_file.assert_called_with(Path(__file__).parent.parent / 'src/site/index.html', 'w+', encoding='utf-8')
+        mock_file.assert_called_with(Path(__file__).parent.parent / 'src/site/index.html', mode='w+', encoding='utf-8')
         mock_file().write.assert_called_once_with("Generated content")
 
 if __name__ == '__main__':
