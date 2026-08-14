@@ -1,6 +1,11 @@
  
 # LinkNet
 
+<p align="center">
+  <img src="assets/cover.png" alt="link-net" width="800"/>
+</p>
+
+
 <!-- Badges: Project Status GitHub -->
 ![license](https://flat.badgen.net/static/license/GPL-3.0/blue)
 ![release](https://flat.badgen.net/github/release/charudatta10/LinkNet)
