@@ -1,7 +1,8 @@
-from jinja2 import Template
-from pathlib import Path
 import json
 import logging
+from pathlib import Path
+
+from jinja2 import Template
 
 # Configure logging
 logging.basicConfig(

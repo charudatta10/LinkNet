@@ -19,6 +19,10 @@
 
 Links aggregated repository.  
 
+## What is this?
+
+LinkNet is a lightweight, self-hosted web app that aggregates your links into a single hub. It supports any link type with custom icons, a responsive layout, and a professional animated design with a verified checkmark. Set it up in minutes — no database, no build step.
+
 ## Features 🌟
 
 - Supporting Any Link + Custom Link Icon 
@@ -31,9 +35,24 @@ Links aggregated repository.
 
 ## Getting Started 🌱
 
-Run `poe` cmd in command prompt.
+Clone and run:
+
+```sh
+git clone https://github.com/charudatta10/link-net.git
+cd link-net
+uv sync          # or: pip install -e .
+poe run
+```
+
+## Usage
+
+Start the app with `poe run` (or `python -m src.main`) and open http://127.0.0.1:5000 in your browser. Add any link, pick a custom icon, and customize the link color from the app.
 
 ✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/LinkNet/issues)✨
+
+## License
+
+GPL-3.0. See [license](license) for details.
 
 Copyright :copyright: 2024 CK :tm: @ charudatta10.   
 

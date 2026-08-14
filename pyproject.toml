@@ -28,4 +28,17 @@ ruff-format = "ruff format ."
 # Composite: run both lint + format
 ruff = ["ruff-check", "ruff-format"]
 
+# run
+run = "python -m src.main"
+
+# Import sorting
+imports = "isort ."
+
+# Security
+security = "bandit -r ."
+
+# Dependency audit
+audit = "pip-audit"
+
+
 

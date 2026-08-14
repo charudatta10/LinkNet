@@ -1,11 +1,11 @@
 import unittest
-from unittest.mock import patch, mock_open
 from pathlib import Path
+from unittest.mock import mock_open, patch
+
 from jinja2 import Template
 
-from src.linknetgen import (
-    LinkNetGen,
-)  # replace 'your_module' with the actual module name
+from src.linknetgen import \
+    LinkNetGen  # replace 'your_module' with the actual module name
 
 
 class TestLinkNetGen(unittest.TestCase):

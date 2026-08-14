@@ -1,5 +1,7 @@
-from flask import Flask, render_template
 from pathlib import Path
+
+from flask import Flask, render_template
+
 from .linknetgen import LinkNetGen
 
 app = Flask(__name__, template_folder=Path(__file__).parent / "site")
